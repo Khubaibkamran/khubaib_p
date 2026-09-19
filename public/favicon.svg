@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#191209"/>
+      <stop offset="1" stop-color="#070605"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#g)"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#ff6a1a" stroke-width="4"/>
+  <text x="29" y="41" text-anchor="middle"
+        font-family="Archivo, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-weight="900" font-size="25" letter-spacing="-1" fill="#f2ece6">mk</text>
+  <circle cx="48" cy="38.5" r="3.6" fill="#ff6a1a"/>
+</svg>
