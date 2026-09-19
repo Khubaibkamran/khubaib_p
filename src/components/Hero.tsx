@@ -235,8 +235,8 @@ export default function Hero({ start }: { start: boolean }) {
               <SpecRow k="stack" delay={1720} start={start}>
                 react · react native · node
               </SpecRow>
-              <SpecRow k="shipped" delay={1800} start={start}>
-                live client products
+              <SpecRow k="ships" delay={1800} start={start}>
+                fast, accessible, tested
               </SpecRow>
               <SpecRow k="reply" delay={1880} start={start}>
                 within 24 hours

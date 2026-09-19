@@ -39,7 +39,7 @@ export default function Career() {
           </div>
           <div className="flex flex-col gap-3">
             <p className="max-w-xs text-sm leading-relaxed text-cream/50">
-              agency floors, client work and a full stack product role.{" "}
+              the places i’ve built things.{" "}
               <Aside>pick a year to open it</Aside>
             </p>
             {current && (

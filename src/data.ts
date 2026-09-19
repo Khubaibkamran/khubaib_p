@@ -111,10 +111,10 @@ export const jobs: Job[] = [
     mode: "FULL-TIME",
     type: "FULL-TIME",
     summary:
-      "Split between product front ends and WordPress builds — turning designs into responsive, fast, client-ready sites.",
+      "Split between product front ends and WordPress builds — turning designs into responsive, fast, production-ready sites.",
     points: [
       "Built responsive React interfaces from Figma designs.",
-      "Developed and customised WordPress themes for client sites.",
+      "Developed and customised WordPress themes end to end.",
       "Tuned page speed and responsiveness across mobile and desktop.",
     ],
     stack: ["REACT", "JAVASCRIPT", "WORDPRESS", "PHP", "TAILWIND"],
@@ -136,7 +136,7 @@ export const jobs: Job[] = [
   },
 ];
 
-export type SkillItem = { name: string; pct: number; years: string; cat: Cat };
+export type SkillItem = { name: string; pct: number; cat: Cat };
 export type Cat = "FRONTEND" | "BACKEND" | "DATA" | "DEVOPS";
 export type SkillGroup = { group: string; cat: Cat; items: SkillItem[] };
 
@@ -147,60 +147,60 @@ export const skills: SkillGroup[] = [
     group: "FRONTEND CORE",
     cat: "FRONTEND",
     items: [
-      { name: "REACT", pct: 96, years: "8Y", cat: "FRONTEND" },
-      { name: "NEXT.JS", pct: 93, years: "5Y", cat: "FRONTEND" },
-      { name: "TYPESCRIPT", pct: 94, years: "6Y", cat: "FRONTEND" },
-      { name: "TAILWIND / CSS", pct: 95, years: "9Y", cat: "FRONTEND" },
+      { name: "REACT", pct: 96, cat: "FRONTEND" },
+      { name: "NEXT.JS", pct: 93, cat: "FRONTEND" },
+      { name: "TYPESCRIPT", pct: 94, cat: "FRONTEND" },
+      { name: "TAILWIND / CSS", pct: 95, cat: "FRONTEND" },
     ],
   },
   {
     group: "INTERFACE CRAFT",
     cat: "FRONTEND",
     items: [
-      { name: "DESIGN SYSTEMS", pct: 92, years: "5Y", cat: "FRONTEND" },
-      { name: "ACCESSIBILITY (WCAG)", pct: 88, years: "4Y", cat: "FRONTEND" },
-      { name: "ANIMATION / GSAP", pct: 86, years: "4Y", cat: "FRONTEND" },
-      { name: "CORE WEB VITALS", pct: 91, years: "5Y", cat: "FRONTEND" },
+      { name: "DESIGN SYSTEMS", pct: 92, cat: "FRONTEND" },
+      { name: "ACCESSIBILITY (WCAG)", pct: 88, cat: "FRONTEND" },
+      { name: "ANIMATION / GSAP", pct: 86, cat: "FRONTEND" },
+      { name: "CORE WEB VITALS", pct: 91, cat: "FRONTEND" },
     ],
   },
   {
     group: "BACKEND & APIS",
     cat: "BACKEND",
     items: [
-      { name: "NODE.JS / EXPRESS", pct: 91, years: "7Y", cat: "BACKEND" },
-      { name: "REST / GRAPHQL", pct: 89, years: "6Y", cat: "BACKEND" },
-      { name: "AUTH & SECURITY", pct: 85, years: "5Y", cat: "BACKEND" },
-      { name: "PYTHON", pct: 76, years: "3Y", cat: "BACKEND" },
+      { name: "NODE.JS / EXPRESS", pct: 91, cat: "BACKEND" },
+      { name: "REST / GRAPHQL", pct: 89, cat: "BACKEND" },
+      { name: "AUTH & SECURITY", pct: 85, cat: "BACKEND" },
+      { name: "PYTHON", pct: 76, cat: "BACKEND" },
     ],
   },
   {
     group: "DATABASES",
     cat: "DATA",
     items: [
-      { name: "POSTGRESQL", pct: 89, years: "5Y", cat: "DATA" },
-      { name: "MONGODB", pct: 86, years: "5Y", cat: "DATA" },
-      { name: "MYSQL", pct: 84, years: "6Y", cat: "DATA" },
-      { name: "FIREBASE", pct: 83, years: "4Y", cat: "DATA" },
+      { name: "POSTGRESQL", pct: 89, cat: "DATA" },
+      { name: "MONGODB", pct: 86, cat: "DATA" },
+      { name: "MYSQL", pct: 84, cat: "DATA" },
+      { name: "FIREBASE", pct: 83, cat: "DATA" },
     ],
   },
   {
     group: "SHIPPING & OPS",
     cat: "DEVOPS",
     items: [
-      { name: "GIT / CI-CD", pct: 92, years: "8Y", cat: "DEVOPS" },
-      { name: "DOCKER", pct: 82, years: "4Y", cat: "DEVOPS" },
-      { name: "AWS / VERCEL", pct: 85, years: "5Y", cat: "DEVOPS" },
-      { name: "TESTING (JEST/PW)", pct: 87, years: "5Y", cat: "DEVOPS" },
+      { name: "GIT / CI-CD", pct: 92, cat: "DEVOPS" },
+      { name: "DOCKER", pct: 82, cat: "DEVOPS" },
+      { name: "AWS / VERCEL", pct: 85, cat: "DEVOPS" },
+      { name: "TESTING (JEST/PW)", pct: 87, cat: "DEVOPS" },
     ],
   },
   {
     group: "WORKFLOW",
     cat: "DEVOPS",
     items: [
-      { name: "AGILE / SCRUM", pct: 90, years: "7Y", cat: "DEVOPS" },
-      { name: "FIGMA HANDOFF", pct: 93, years: "8Y", cat: "DEVOPS" },
-      { name: "CODE REVIEW", pct: 91, years: "6Y", cat: "DEVOPS" },
-      { name: "MENTORING", pct: 88, years: "4Y", cat: "DEVOPS" },
+      { name: "AGILE / SCRUM", pct: 90, cat: "DEVOPS" },
+      { name: "FIGMA HANDOFF", pct: 93, cat: "DEVOPS" },
+      { name: "CODE REVIEW", pct: 91, cat: "DEVOPS" },
+      { name: "DOCUMENTATION", pct: 88, cat: "DEVOPS" },
     ],
   },
 ];

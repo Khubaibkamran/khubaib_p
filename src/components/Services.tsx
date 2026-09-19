@@ -64,7 +64,7 @@ const services: Service[] = [
     title: "ongoing support",
     note: "i don't disappear after launch",
     desc: "A standing slot in my week — features, fixes and the judgement calls in between.",
-    items: ["retainers", "feature work", "embedded in your team", "mentoring"],
+    items: ["retainers", "feature work", "code reviews", "priority fixes"],
     stack: "whatever you already run",
     timeline: "monthly, rolling",
   },

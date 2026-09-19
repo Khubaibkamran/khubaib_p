@@ -101,10 +101,9 @@ export default function About() {
           <div className="mt-8 space-y-5 text-sm leading-relaxed text-cream/60 md:text-base">
             <p>
               I'm Muhammad Khubaib — a{" "}
-              <span className="text-cream">full stack frontend software engineer</span> with nine
-              years of production experience. I started out hand-coding responsive sites at an
-              agency, and now I lead the front-end architecture for a multi-tenant SaaS platform
-              used by 40,000+ people a day.
+              <span className="text-cream">full stack frontend software engineer</span>. I started
+              out hand-coding responsive sites, and I now work across the whole stack: the
+              interface, the services behind it, and everything in between.
             </p>
             <p>
               I build <span className="text-cream">web apps and mobile apps</span> — pixel-accurate

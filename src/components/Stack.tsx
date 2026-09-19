@@ -41,7 +41,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col items-start gap-4">
             <p className="max-w-xs text-sm leading-relaxed text-cream/50">
-              every number is tied to shipped work, with the years actually spent in each tool.{" "}
+              the tools i reach for, and how confident i am in each.{" "}
               <Aside>self-reported, honestly</Aside>
             </p>
             <div className="label flex gap-px border border-line bg-line">
@@ -134,10 +134,7 @@ export default function Stack() {
                         <span className="text-cream/75 transition-colors duration-300 group-hover:text-cream">
                           {s.name.toLowerCase()}
                         </span>
-                        <span className="flex shrink-0 items-center gap-2.5">
-                          <span className="text-cream/30">{s.years.toLowerCase()}</span>
-                          <span className="tabular-nums text-ember">{s.pct}</span>
-                        </span>
+                        <span className="tabular-nums text-ember">{s.pct}</span>
                       </div>
                       <div className="relative mt-2 h-[3px] overflow-hidden bg-line">
                         <span
